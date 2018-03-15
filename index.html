@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Simple Sidebar - Start Bootstrap Template</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/simple-sidebar.css" rel="stylesheet">
+	<link href='css/workout.css' rel='stylesheet'>
+
+</head>
+
+<body>
+
+    <div id='wrapper'>
+		<div id='sidebar-wrapper'>
+			<ul class='sidebar-nav'>
+				<li class='sidebar-brand'>
+					<img class='mylogo' src='w.jpg'>
+				</li><br><br><br>
+				<li><a href='index.html'>Home</a></li>
+				<li><a href='calendar.html'>Calendar</a></li>
+				<li><a href='alarm.html'>Alarm</a></li>
+				<li><a href='history.html'>History</a></li>
+			</ul>
+		</div>
+		
+		<div class='container-fluid'>
+			<nav class="navbar navbar-dark bg-dark">
+			  <a style='margin: 10px;color: white;' href='#menu-toggle' id='menu-toggle'>Menu</a>
+			</nav>
+			
+		</div>
+				<div class='container-fluid'>
+				<h1>Don't Wish For A Good Body, Work  For It.<span class="badge badge-secondary"></span></h1>
+				<img class='mysupport'src='slim.jpg'>
+				</div>
+				
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Menu Toggle Script -->
+    <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    </script>
+
+</body>
+
+</html>

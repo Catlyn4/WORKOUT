@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Simple Sidebar - Start Bootstrap Template</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/simple-sidebar.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div id='wrapper'>
+		<div id='sidebar-wrapper'>
+			<ul class='sidebar-nav'>
+				<li class='sidebar-brand'>
+					<a href=''></a>
+				</li>
+				<li><a href='index.html'>Home</a></li>
+				<li><a href='calendar.html'>Calendar</a></li>
+				<li><a href='alarm.html'>Alarm</a></li>
+				<li><a href='history.html'>History</a></li>
+			</ul>
+		</div>
+		
+		<div class='container-fluid'>
+			<nav class="navbar navbar-dark bg-dark">
+			  <a style='margin: 10px;color: white;' href='#menu-toggle' id='menu-toggle'>Menu</a>
+			</nav>
+		</div>
+					
+			<div id='page-content-wrapper'>
+				<div class="container-fluid">
+					<div class="row">
+					<!--Calendar-->
+					<div class="col-sm">
+					<a class="btn btn-primary" href="calendar.html" role="button"><</a>
+					<a class="btn btn-primary" href="history.html" role="button">></a>
+					<div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+					  <div class="btn-group mr-2" role="group" aria-label="First group">
+					  </div>
+					</div>
+					</div><br>
+						<div class="col-12">
+						<button type="button" class="btn btn-warning">Calendar</button><br><br>
+
+				<form>
+					  <div class="form-group">
+						<label for="choosedate">Choose date</label>
+						<input type="date" class="form-control" id="choosedate" aria-describedby="datehelp" placeholder="choosedate">
+						<small id="datehelp" class="form-text text-muted"></small>
+					  </div><br>
+					  <select class="custom-select mb-2 mr-sm-2 mb-sm-0" id="inlineFormCustomSelect">
+						<option selected>Choose...</option>
+						<option value="Jogging">Jogging</option>
+						<option value="Walking">Walking</option>
+						<option value="Hiking">Hiking</option>
+			  </select>
+					  <div class="form-check">
+						<label class="form-check-label">
+						  <input type="checkbox" class="form-check-input">
+						  Repeat
+						</label>
+					  </div>
+					  <div class="form-check">
+						<label class="form-check-label">
+						  <input type="checkbox" class="form-check-input">
+						  Never
+						</label>
+					  </div><br>
+					 <button type="save" class="btn btn-primary">Save</button>
+					 <button type="remove" class="btn btn-primary">Remove</button>
+				</form>
+				</div>
+					</div>
+
+				</div>
+			</div>
+	
+	
+	
+	
+	
+	
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Menu Toggle Script -->
+    <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    </script>
+
+</body>
+
+</html>
